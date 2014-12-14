@@ -1,0 +1,9 @@
+#!/bin/sh
+for i in {1..9}
+do
+	java ClientApp -server node0$i -q
+done
+for i in {10..16}
+do
+	java ClientApp -server node$i -q
+done

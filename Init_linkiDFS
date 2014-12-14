@@ -1,0 +1,4 @@
+#!/bin/sh
+cd ./linkiDFS/
+./Pre_Proc
+java ServerApp -port 20121 -mount linkiDFS$RANDOM

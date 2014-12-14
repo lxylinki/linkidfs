@@ -1,0 +1,5 @@
+#!/bin/sh
+export CLASSPATH=$PWD
+make clean
+make
+export CLASSPATH=$PWD
