@@ -1,4 +1,4 @@
 linkiDFS
 ========
 
-linkiDFS
+A cluster file system prototype
